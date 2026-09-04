@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">Lumo</string>
+  <string name="back_to_lumo">Zpět k Lumo</string>
+  <string name="loading">Načítání Lumo</string>
+  <string name="error_generic">Došlo k chybě</string>
+  <string name="error_url">Chyba při určování počáteční URL.</string>
+  <string name="unable_to_connect">Nelze se připojit</string>
+  <string name="please_check_your_internet_connection_and_try_again">Zkontrolujte prosím své internetové připojení a zkuste to znovu.</string>
+  <string name="retry_button">Opakovat</string>
+  <string name="retry_connection">Zkusit připojení znovu</string>
+  <string name="settings">Nastavení</string>
+  <string name="cancel">Zrušit</string>
+  <!-- Loading Messages -->
+  <string name="loading_message_1">Vyžaduji pozornost… a výpočetní výkon…</string>
+  <string name="loading_message_2">Hraji si s načítacími pruhy…</string>
+  <string name="loading_message_3">Odháním obchodníky s daty…</string>
+  <string name="loading_message_4">Chytám digitální myši…</string>
+  <string name="loading_message_5">Shazuji věci z neviditelných polic…</string>
+  <string name="loading_message_6">Stahuji… čekejte prosím…</string>
+  <string name="loading_message_7">Podřimuji na slunci… téměř připravena…</string>
+  <string name="loading_message_8">Plánuji ovládnutí světa… a spuštění vaší aplikace…</string>
+  <string name="loading_message_9">Motory již začaly příst…</string>
+  <string name="loading_message_10">Brousím si drápky o vaši klávesnici…</string>
+  <string name="loading_message_11">Protahuji se před velkým skokem…</string>
+  <!-- MainActivity Status/Errors -->
+  <string name="speech_status_network">Rozpoznávání zpracováno společností Google</string>
+  <string name="speech_status_vosk" tools:ignore="MissingTranslation">Rozpoznávání zpracované pomocí Vosk • Na zařízení • Soukromé</string>
+  <string name="speech_status_google" tools:ignore="MissingTranslation">Rozpoznávání zpracoval Google</string>
+  <string name="speech_status_on_device">Na zařízení • Soukromé</string>
+  <string name="permission_rationale_title">Chybějící oprávnění</string>
+  <string name="permission_mic_rationale">Pro hlasový vstup je vyžadováno oprávnění k mikrofonu</string>
+  <string name="speech_not_available">Rozpoznávání řeči není k dispozici</string>
+  <string name="speech_error_format">Chyba řeči: %1$s</string>
+  <!-- Placeholder for error message -->
+  <string name="submit_prompt_failed">Nepodařilo se vložit zadání do webového zobrazení</string>
+  <string name="start_listener_error_format">Chyba při spouštění naslouchače: %1$s</string>
+  <!-- Placeholder for exception message -->
+  <string name="fab_speak_prompt_desc">Namluvte zadání</string>
+  <string name="speech_intent_prompt">Namluvte své zadání</string>
+  <!-- Speech Input Sheet -->
+  <string name="speech_sheet_cancel_desc">Zrušit hlasový vstup</string>
+  <string name="speech_sheet_submit_desc">Odeslat zadání</string>
+  <string name="speech_sheet_listening">Naslouchám…</string>
+  <string name="speech_sheet_waiting">Klepněte na odeslat nebo mluvte</string>
+  <!-- Speech Recognizer Errors -->
+  <string name="speech_error_audio">Chyba nahrávání zvuku</string>
+  <string name="speech_error_client">Chyba na straně klienta</string>
+  <string name="speech_error_insufficient_permissions">Nedostatečná oprávnění</string>
+  <string name="speech_error_network">Chyba sítě</string>
+  <string name="speech_error_network_timeout">Časový limit sítě vypršel</string>
+  <string name="speech_error_no_match">Nebyla nalezena žádná shoda řeči</string>
+  <string name="speech_error_recognizer_busy">Rozpoznávač je zaneprázdněn</string>
+  <string name="speech_error_server">Chyba serveru</string>
+  <string name="speech_error_speech_timeout">Žádný hlasový vstup</string>
+  <string name="speech_error_unknown">Neznámá chyba rozpoznávání řeči</string>
+  <!-- SUbscription Strings -->
+  <string name="payment_title">Zlepšete svůj zážitek s AI</string>
+  <string name="payment_black_friday_title">Nezmeškejte naši speciální nabídku</string>
+  <string name="payment_subtitle">Užijte si preferované zacházení a prémiové funkce s Lumo Plus.</string>
+  <string name="payment_black_friday_subtitle">Odemkněte si ještě dnes všechny prémiové funkce Lumo Plus za naši dosud nejlepší cenu.</string>
+  <string name="payment_checking">Kontroluji stav předplatného…</string>
+  <string name="payment_loading_plans">Načítám tarify předplatného…</string>
+  <string name="payment_no_plans_available">Momentálně nejsou k dispozici žádné tarify předplatného</string>
+  <string name="subscription_renewal">Vybraný tarif se bude automaticky obnovovat, dokud nebude zrušen</string>
+  <string name="subscription_buy_lumo">Získat Lumo Plus</string>
+  <string name="subscription_use_lumo_free">Použít místo toho Lumo Free</string>
+  <string name="subscription_claim_black_friday_deal">Využijte nabídku Black Friday</string>
+  <string name="subscription_manage">Správa předplatného</string>
+  <string name="subscription_manage_info">Toto předplatné musí být spravováno prostřednictvím webového rozhraní.</string>
+  <string name="discount_template">Ušetřete %s</string>
+  <string name="best_value">Nejvýhodnější</string>
+  <string name="limited_black_friday_offer">Časově omezená nabídka Black Friday</string>
+  <string name="for_price">Za</string>
+  <string name="month">Měsíc</string>
+  <string name="months">Měsíc</string>
+  <string name="cancelled">Zrušeno</string>
+  <!-- Time Periods -->
+  <string name="period_day">den</string>
+  <string name="period_week">týden</string>
+  <string name="period_month">měsíc</string>
+  <string name="period_quarter">čtvrtletí</string>
+  <string name="period_6_months">6 měsíců</string>
+  <string name="period_year">rok</string>
+  <!-- Plan Duration Text -->
+  <string name="plan_duration_1_month">1 měsíc</string>
+  <string name="plan_duration_12_months">12 měsíců</string>
+  <string name="plan_duration_n_months">%1$d Měsíců</string>
+  <!-- Subscription Status -->
+  <string name="subscription_renews">Vaše předplatné se automaticky obnoví dne %1$s</string>
+  <string name="subscription_expires">Vaše předplatné vyprší dne %1$s</string>
+  <!-- Error Messages - Network -->
+  <string name="error_network_dns">Nelze se připojit k serveru. Prosím zkontrolujte vaše internetové připojení.</string>
+  <string name="error_network_connection">Připojení selhalo. Prosím zkontrolujte vaše internetové připojení.</string>
+  <string name="error_network_no_route">Nepodařilo se připojit na server. Zkontrolujte vaše internetové připojení.</string>
+  <string name="error_network_port_unreachable">Služba dočasně nedostupná.</string>
+  <string name="error_network_socket">Chyba síťového připojení. Prosím zkuste to znovu.</string>
+  <string name="error_network_io">Došlo k síťové chybě. Zkuste to prosím znovu.</string>
+  <!-- Error Messages - Timeout -->
+  <string name="error_timeout_socket">Požadavek vypršel. Prosím zkuste to znovu.</string>
+  <!-- Error Messages - SSL/Security -->
+  <string name="error_ssl_handshake">Bezpečné připojení selhalo. Prosím zkontrolujte datum a čas na vašem zařízení.</string>
+  <string name="error_ssl_peer_unverified">Ověření certifikátu serveru selhalo.</string>
+  <string name="error_ssl_protocol">Chyba protokolu bezpečného připojení.</string>
+  <string name="error_ssl_general">Chyba bezpečného připojení.</string>
+  <string name="error_certificate">Chyba serverového certifikátu.</string>
+  <!-- Error Messages - Authentication -->
+  <string name="error_auth_unauthorized">Ověření selhalo. Přihlaste se prosím znovu.</string>
+  <string name="error_auth_forbidden">Přístup zamítnut.</string>
+  <!-- Error Messages - Client -->
+  <string name="error_client_not_found">Požadovaný zdroj nenalezen.</string>
+  <string name="error_client_protocol">Došlo k chybě protokolu.</string>
+  <string name="error_client_service_unknown">Služba není podporována.</string>
+  <!-- Error Messages - Server -->
+  <string name="error_server_internal">Chyba serveru. Zkuste to prosím později.</string>
+  <string name="error_server_bad_gateway">Služba je dočasně nedostupná. Prosím zkuste to znovu.</string>
+  <string name="error_server_unavailable">Služba je dočasně nedostupná. Prosím zkuste to znovu později.</string>
+  <!-- Error Messages - Generic -->
+  <string name="error_unknown">Došlo k neočekávané chybě. Zkuste to znovu.</string>
+  <!-- Billing Error Messages -->
+  <string name="billing_unavailable_old_api">Verze fakturační služby Google Play na tomto zařízení je příliš stará. Prosím aktualizujte obchod Google Play, nebo použijte webovou verzi Lumo.</string>
+  <string name="billing_unavailable_not_supported">Nákupy v aplikaci nejsou podporované na vašem zařízení. Prosím využijte webovou verzi Lumo pro předplatné.</string>
+  <string name="billing_unavailable_generic">Vyúčtování není dostupné: Prosím ujistěte se že Google Play Store je nainstalován, aktualizován a jste přihlášeni.</string>
+  <string name="billing_service_not_connected">Služba vyúčtování není připojena. Prosím zkuste to znovu.</string>
+  <string name="billing_google_play_required">Pro nákupy v aplikaci je vyžadován obchod Google Play.</string>
+  <string name="billing_cannot_access_google_play">Nelze získat přístup k obchodu Google Play.</string>
+  <string name="billing_services_unavailable">Fakturační služba je nedostupná: %1$s</string>
+  <string name="billing_api_not_available">API vyúčtování Google Play není dostupné</string>
+  <string name="billing_initialization_failed">Inicializace vyúčtování selhala: %1$s</string>
+  <string name="billing_connection_failed">Chyba při připojení ke službě vyúčtování: %1$s</string>
+  <string name="billing_application_context_unavailable">Kontext aplikace není dostupný</string>
+  <!-- Subscription Plan Descriptions -->
+  <string name="subscription_monthly_description">Měsíční předplatné</string>
+  <string name="subscription_annual_description">Roční předplatné (ušetříte 20%)</string>
+  <!-- Subscription Error Messages -->
+  <string name="error_failed_to_load_subscriptions">Nepodařilo se načíst předplatné: %1$s</string>
+  <string name="error_loading_subscriptions">Chyba při načítání předplatného: %1$s</string>
+  <string name="error_no_plans_with_pricing">Žádné tarify s dostupnými informacemi o cenách</string>
+  <string name="error_problem_loading_subscriptions">Při načítání předplatného došlo k problému</string>
+  <string name="error_failed_to_load_plans">Nepodařilo se načíst tarify: %1$s</string>
+  <string name="error_loading_plans">Chyba při načítání tarifů: %1$s</string>
+  <string name="error_webview_not_available">WebView není k dispozici</string>
+  <string name="error_open_external_link">Nelze otevřít externí odkaz</string>
+  <string name="error_open_file_chooser">Nelze otevřít výběr souborů</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_title">Nezmeškejte naši speciální nabídku</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_subtitle">Odemkněte si všechny prémiové funkce v Lumo Plus ještě dnes výhodněji.</string>
+  <!-- tag(q1campaign) -->
+  <string name="subscription_claim_spring_sale_deal">Získejte nabídku jarního výprodeje</string>
+  <!-- tag(q1campaign) -->
+  <string name="limited_spring_sale_offer">Časově omezená nabídka jarního výprodeje</string>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">Lumo</string>
+  <string name="back_to_lumo">Retour à Lumo</string>
+  <string name="loading">Chargement de Lumo</string>
+  <string name="error_generic">Une erreur s\'est produite</string>
+  <string name="error_url">Erreur lors de la détermination de l\'URL initiale.</string>
+  <string name="unable_to_connect">Connexion impossible</string>
+  <string name="please_check_your_internet_connection_and_try_again">Veuillez vérifier votre connexion internet puis réessayer.</string>
+  <string name="retry_button">Réessayer</string>
+  <string name="retry_connection">Réessayer la connexion</string>
+  <string name="settings">Paramètres</string>
+  <string name="cancel">Annuler</string>
+  <!-- Loading Messages -->
+  <string name="loading_message_1">J\'ai besoin d\'attention… et de puissance de traitement…</string>
+  <string name="loading_message_2">Frappage des barres de chargement…</string>
+  <string name="loading_message_3">Fait miauler de peur les courtiers de données…</string>
+  <string name="loading_message_4">Chasse des souris numériques…</string>
+  <string name="loading_message_5">Renversement d\'objets sur des étagères invisibles…</string>
+  <string name="loading_message_6">Téléchargement en cours… veuillez patienter…</string>
+  <string name="loading_message_7">Une petite sieste au soleil… j\'ai presque terminé…</string>
+  <string name="loading_message_8">Planification de la domination du monde… et du lancement de votre application…</string>
+  <string name="loading_message_9">Les moteurs commencent à rugir…</string>
+  <string name="loading_message_10">Aiguisage des griffes sur votre clavier…</string>
+  <string name="loading_message_11">Un petit étirement avant le grand saut…</string>
+  <!-- MainActivity Status/Errors -->
+  <string name="speech_status_network">Reconnaissance traitée par Google</string>
+  <string name="speech_status_vosk" tools:ignore="MissingTranslation">Reconnaissance traitée par Vosk • Sur l\'appareil • Privé</string>
+  <string name="speech_status_google" tools:ignore="MissingTranslation">Reconnaissance traitée par Google</string>
+  <string name="speech_status_on_device">Sur l\'appareil • Privé</string>
+  <string name="permission_rationale_title">Autorisation manquante</string>
+  <string name="permission_mic_rationale">Autorisation du microphone nécessaire pour la saisie vocale</string>
+  <string name="speech_not_available">La reconnaissance vocale n\'est pas disponible.</string>
+  <string name="speech_error_format">Erreur de saisie vocale : %1$s</string>
+  <!-- Placeholder for error message -->
+  <string name="submit_prompt_failed">Erreur lors de l\'insertion de l\'invite dans l\'affichage web intégré</string>
+  <string name="start_listener_error_format">Erreur lors du démarrage de l’écoute : %1$s</string>
+  <!-- Placeholder for exception message -->
+  <string name="fab_speak_prompt_desc">Invite vocale</string>
+  <string name="speech_intent_prompt">Invite vocale</string>
+  <!-- Speech Input Sheet -->
+  <string name="speech_sheet_cancel_desc">Annuler la saisie vocale</string>
+  <string name="speech_sheet_submit_desc">Soumettre l\'invite</string>
+  <string name="speech_sheet_listening">Écoute…</string>
+  <string name="speech_sheet_waiting">Veuillez appuyer sur Envoyer ou parler</string>
+  <!-- Speech Recognizer Errors -->
+  <string name="speech_error_audio">Erreur d\'enregistrement audio</string>
+  <string name="speech_error_client">Erreur client</string>
+  <string name="speech_error_insufficient_permissions">Autorisations insuffisantes</string>
+  <string name="speech_error_network">Erreur réseau</string>
+  <string name="speech_error_network_timeout">Délai d\'expiration du réseau</string>
+  <string name="speech_error_no_match">Aucune correspondance vocale</string>
+  <string name="speech_error_recognizer_busy">Système de reconnaissance vocale occupé</string>
+  <string name="speech_error_server">Erreur de serveur</string>
+  <string name="speech_error_speech_timeout">Aucune saisie vocale</string>
+  <string name="speech_error_unknown">Erreur de reconnaissance vocale inconnue</string>
+  <!-- SUbscription Strings -->
+  <string name="payment_title">Améliorez votre expérience IA</string>
+  <string name="payment_black_friday_title">Ne manquez pas notre offre spéciale</string>
+  <string name="payment_subtitle">Profitez d\'un traitement privilégié et de fonctionnalités premium avec Lumo Plus.</string>
+  <string name="payment_black_friday_subtitle">Débloquez dès aujourd\'hui toutes les fonctionnalités premium de Lumo Plus à son meilleur prix à ce jour.</string>
+  <string name="payment_checking">Vérification du statut de l\'abonnement…</string>
+  <string name="payment_loading_plans">Chargement des abonnements…</string>
+  <string name="payment_no_plans_available">Aucun abonnement n\'est actuellement disponible.</string>
+  <string name="subscription_renewal">L\'abonnement sélectionné sera automatiquement renouvelé jusqu\'à sa résiliation.</string>
+  <string name="subscription_buy_lumo">Profiter de Lumo Plus</string>
+  <string name="subscription_use_lumo_free">Utilisez Lumo Free à la place</string>
+  <string name="subscription_claim_black_friday_deal">Profitez de l\'offre Black Friday</string>
+  <string name="subscription_manage">Gérer l\'abonnement</string>
+  <string name="subscription_manage_info">Cet abonnement doit être géré via l\'interface web.</string>
+  <string name="discount_template">Économisez %s </string>
+  <string name="best_value">Meilleure offre</string>
+  <string name="limited_black_friday_offer">Offre Black Friday à durée limitée</string>
+  <string name="for_price">Pour</string>
+  <string name="month">Mois</string>
+  <string name="months">Mois</string>
+  <string name="cancelled">Annulé</string>
+  <!-- Time Periods -->
+  <string name="period_day">jour</string>
+  <string name="period_week">semaine</string>
+  <string name="period_month">mois</string>
+  <string name="period_quarter">trimestre</string>
+  <string name="period_6_months">6 mois</string>
+  <string name="period_year">an</string>
+  <!-- Plan Duration Text -->
+  <string name="plan_duration_1_month">1 mois</string>
+  <string name="plan_duration_12_months">12 mois</string>
+  <string name="plan_duration_n_months">%1$d Mois</string>
+  <!-- Subscription Status -->
+  <string name="subscription_renews">Votre abonnement sera automatiquement renouvelé le %1$s</string>
+  <string name="subscription_expires">Votre abonnement expire le %1$s</string>
+  <!-- Error Messages - Network -->
+  <string name="error_network_dns">Impossible de se connecter au serveur. Veuillez vérifier votre connexion internet.</string>
+  <string name="error_network_connection">La connexion n\'a pas abouti. Veuillez vérifier votre connexion internet.</string>
+  <string name="error_network_no_route">Impossible de joindre le serveur. Veuillez vérifier votre connexion internet.</string>
+  <string name="error_network_port_unreachable">Le service est temporairement indisponible</string>
+  <string name="error_network_socket">Erreur de connexion réseau. Veuillez réessayer.</string>
+  <string name="error_network_io">Une erreur de réseau s\'est produite. Veuillez réessayer.</string>
+  <!-- Error Messages - Timeout -->
+  <string name="error_timeout_socket">La requête a expiré. Veuillez réessayer.</string>
+  <!-- Error Messages - SSL/Security -->
+  <string name="error_ssl_handshake">La connexion sécurisée n\'a pas abouti. Veuillez vérifier la date et l’heure de votre appareil.</string>
+  <string name="error_ssl_peer_unverified">La vérification du certificat du serveur n\'a pas abouti.</string>
+  <string name="error_ssl_protocol">Erreur de protocole de connexion sécurisée.</string>
+  <string name="error_ssl_general">Erreur de connexion sécurisée.</string>
+  <string name="error_certificate">Erreur du certificat du serveur.</string>
+  <!-- Error Messages - Authentication -->
+  <string name="error_auth_unauthorized">L\'authentification n\'a pas abouti. Veuillez vous reconnecter.</string>
+  <string name="error_auth_forbidden">Accès refusé.</string>
+  <!-- Error Messages - Client -->
+  <string name="error_client_not_found">La ressource demandée est introuvable.</string>
+  <string name="error_client_protocol">Une erreur de protocole est survenue.</string>
+  <string name="error_client_service_unknown">Service non pris en charge</string>
+  <!-- Error Messages - Server -->
+  <string name="error_server_internal">Erreur de serveur. Veuillez réessayer ultérieurement.</string>
+  <string name="error_server_bad_gateway">Service temporairement indisponible. Veuillez réessayer.</string>
+  <string name="error_server_unavailable">Service temporairement indisponible. Veuillez réessayer plus tard.</string>
+  <!-- Error Messages - Generic -->
+  <string name="error_unknown">Une erreur inattendue s’est produite. Veuillez réessayer.</string>
+  <!-- Billing Error Messages -->
+  <string name="billing_unavailable_old_api">La version de Google Play Billing sur cet appareil est trop ancienne. Veuillez mettre à jour le Google Play Store ou utiliser la version Web de Lumo.</string>
+  <string name="billing_unavailable_not_supported">Les achats au sein de l’application ne sont pas disponibles sur cet appareil. Veuillez utiliser la version web de Lumo pour gérer les abonnements.</string>
+  <string name="billing_unavailable_generic">La facturation est indisponible : veuillez vous assurer que le Google Play Store est installé, à jour et que vous êtes connecté(e).</string>
+  <string name="billing_service_not_connected">Le service de facturation n\'est pas connecté. Veuillez réessayer.</string>
+  <string name="billing_google_play_required">Le Google Play Store est requis pour les achats.</string>
+  <string name="billing_cannot_access_google_play">Impossible d\'accéder au Google Play Store.</string>
+  <string name="billing_services_unavailable">Services de paiements indisponibles : %1$s</string>
+  <string name="billing_api_not_available">L\'API de facturation de Google Play est indisponible</string>
+  <string name="billing_initialization_failed">L\'initialisation de la facturation n\'a pas abouti : %1$s</string>
+  <string name="billing_connection_failed">La connexion au service de facturation n\'a pas abouti : %1$s</string>
+  <string name="billing_application_context_unavailable">Le contexte d’application est indisponible</string>
+  <!-- Subscription Plan Descriptions -->
+  <string name="subscription_monthly_description">Abonnement mensuel</string>
+  <string name="subscription_annual_description">Abonnement annuel (économisez 20 %)</string>
+  <!-- Subscription Error Messages -->
+  <string name="error_failed_to_load_subscriptions">Le chargement des abonnements n\'a pas abouti : %1$s</string>
+  <string name="error_loading_subscriptions">Une erreur est survenue lors du chargement des abonnements :%1$s</string>
+  <string name="error_no_plans_with_pricing">Aucune offre tarifaire n\'est disponible</string>
+  <string name="error_problem_loading_subscriptions">Un problème lors du chargement des abonnements est survenu</string>
+  <string name="error_failed_to_load_plans">Le chargement des abonnements n\'a pas abouti : %1$s</string>
+  <string name="error_loading_plans">Un problème est survenu lors du chargement des abonnements : %1$s</string>
+  <string name="error_webview_not_available">WebView n\'est pas disponible</string>
+  <string name="error_open_external_link">Impossible d\'ouvrir le lien externe.</string>
+  <string name="error_open_file_chooser">Impossible d\'ouvrir le sélecteur de fichiers.</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_title">Ne manquez pas notre offre spéciale</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_subtitle">Débloquez dès aujourd\'hui toutes les fonctionnalités premium de Lumo Plus à moindre coût.</string>
+  <!-- tag(q1campaign) -->
+  <string name="subscription_claim_spring_sale_deal">Profitez de l’offre de printemps</string>
+  <!-- tag(q1campaign) -->
+  <string name="limited_spring_sale_offer">Offre de printemps à durée limitée</string>
+</resources>

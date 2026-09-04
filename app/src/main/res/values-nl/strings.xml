@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">Lumo</string>
+  <string name="back_to_lumo">Terug naar Lumo</string>
+  <string name="loading">Lumo laden</string>
+  <string name="error_generic">Er is iets fout gegaan</string>
+  <string name="error_url">Fout bij het bepalen van de initiële URL.</string>
+  <string name="unable_to_connect">Kan geen verbinding maken</string>
+  <string name="please_check_your_internet_connection_and_try_again">Controleer uw internetverbinding en probeer het opnieuw.</string>
+  <string name="retry_button">Opnieuw proberen</string>
+  <string name="retry_connection">Verbinding opnieuw proberen</string>
+  <string name="settings">Instellingen</string>
+  <string name="cancel">Annuleren</string>
+  <!-- Loading Messages -->
+  <string name="loading_message_1">Vraagt aandacht... en verwerkingskracht...</string>
+  <string name="loading_message_2">Slaan tegen laadbalken...</string>
+  <string name="loading_message_3">Wegjagen van datamakelaars…</string>
+  <string name="loading_message_4">Digitale muizen achterna zitten...</string>
+  <string name="loading_message_5">Dingen van onzichtbare planken stoten...</string>
+  <string name="loading_message_6">Bezig met downloaden... een ogenblik geduld...</string>
+  <string name="loading_message_7">Dutje in de zon... bijna klaar...</string>
+  <string name="loading_message_8">Wereldheerschappij plannen... en de lancering van uw app...</string>
+  <string name="loading_message_9">De motoren worden gestart...</string>
+  <string name="loading_message_10">Klauwen scherpen op uw toetsenbord...</string>
+  <string name="loading_message_11">Rekken voor de grote sprong...</string>
+  <!-- MainActivity Status/Errors -->
+  <string name="speech_status_network">Herkenning verwerkt door Google</string>
+  <string name="speech_status_vosk" tools:ignore="MissingTranslation">Herkenning verwerkt door Vosk • Op het apparaat • Privé</string>
+  <string name="speech_status_google" tools:ignore="MissingTranslation">Herkenning verwerkt door Google</string>
+  <string name="speech_status_on_device">Op apparaat • Privé</string>
+  <string name="permission_rationale_title">Toestemming ontbreekt</string>
+  <string name="permission_mic_rationale">Microfoontoestemming nodig voor spraakinvoer</string>
+  <string name="speech_not_available">Spraakherkenning niet beschikbaar</string>
+  <string name="speech_error_format">Spraakfout: %1$s</string>
+  <!-- Placeholder for error message -->
+  <string name="submit_prompt_failed">Het invoegen van de prompt in de webview is mislukt</string>
+  <string name="start_listener_error_format">Fout bij starten listener: %1$s</string>
+  <!-- Placeholder for exception message -->
+  <string name="fab_speak_prompt_desc">Prompt inspreken</string>
+  <string name="speech_intent_prompt">Spreek uw prompt in</string>
+  <!-- Speech Input Sheet -->
+  <string name="speech_sheet_cancel_desc">Spraakinvoer annuleren</string>
+  <string name="speech_sheet_submit_desc">Prompt verzenden</string>
+  <string name="speech_sheet_listening">Luisteren…</string>
+  <string name="speech_sheet_waiting">Tik op verzenden of spreek</string>
+  <!-- Speech Recognizer Errors -->
+  <string name="speech_error_audio">Fout bij audio-opname</string>
+  <string name="speech_error_client">Fout client-side</string>
+  <string name="speech_error_insufficient_permissions">Onvoldoende rechten</string>
+  <string name="speech_error_network">Netwerkfout</string>
+  <string name="speech_error_network_timeout">Netwerktimeout</string>
+  <string name="speech_error_no_match">Geen spraakovereenkomst</string>
+  <string name="speech_error_recognizer_busy">Herkenner bezet</string>
+  <string name="speech_error_server">Serverfout</string>
+  <string name="speech_error_speech_timeout">Geen spraakinvoer</string>
+  <string name="speech_error_unknown">Onbekende spraakherkenningsfout</string>
+  <!-- SUbscription Strings -->
+  <string name="payment_title">Til uw AI-ervaring naar een hoger niveau</string>
+  <string name="payment_black_friday_title">Mis onze speciale aanbieding niet</string>
+  <string name="payment_subtitle">Geniet van voorkeursbehandeling en premiumfuncties met Lumo Plus.</string>
+  <string name="payment_black_friday_subtitle">Ontgrendel vandaag nog alle Lumo Plus premium features voor onze beste prijs tot nu toe.</string>
+  <string name="payment_checking">Abonnementsstatus controleren...</string>
+  <string name="payment_loading_plans">Abonnementen laden...</string>
+  <string name="payment_no_plans_available">Er zijn momenteel geen abonnementsplannen beschikbaar</string>
+  <string name="subscription_renewal">Het geselecteerde abonnement wordt automatisch verlengd totdat het wordt geannuleerd</string>
+  <string name="subscription_buy_lumo">Neem Lumo Plus</string>
+  <string name="subscription_use_lumo_free">Gebruik in plaats daarvan Lumo Free</string>
+  <string name="subscription_claim_black_friday_deal">Claim de Black Friday aanbieding</string>
+  <string name="subscription_manage">Abonnement beheren</string>
+  <string name="subscription_manage_info">Dit abonnement moet via de webinterface worden beheerd.</string>
+  <string name="discount_template">Bespaar %s</string>
+  <string name="best_value">Beste prijs-kwaliteitverhouding</string>
+  <string name="limited_black_friday_offer">Tijdelijke Black Friday aanbieding</string>
+  <string name="for_price">Voor</string>
+  <string name="month">Maand</string>
+  <string name="months">Maand</string>
+  <string name="cancelled">Geannuleerd</string>
+  <!-- Time Periods -->
+  <string name="period_day">dag</string>
+  <string name="period_week">week</string>
+  <string name="period_month">maand</string>
+  <string name="period_quarter">kwartaal</string>
+  <string name="period_6_months">6 maanden</string>
+  <string name="period_year">jaar</string>
+  <!-- Plan Duration Text -->
+  <string name="plan_duration_1_month">1 maand</string>
+  <string name="plan_duration_12_months">12 maanden</string>
+  <string name="plan_duration_n_months">%1$d Maanden</string>
+  <!-- Subscription Status -->
+  <string name="subscription_renews">Uw abonnement wordt automatisch verlengd op %1$s</string>
+  <string name="subscription_expires">Uw abonnement verloopt op %1$s</string>
+  <!-- Error Messages - Network -->
+  <string name="error_network_dns">Kan met de server geen verbinding maken, controleer uw Internetverbinding.</string>
+  <string name="error_network_connection">Verbinding mislukt, controleer uw Internetverbinding.</string>
+  <string name="error_network_no_route">Kan met de server geen verbinding maken, controleer uw Internetverbinding.</string>
+  <string name="error_network_port_unreachable">Dienst tijdelijk niet beschikbaar.</string>
+  <string name="error_network_socket">Netwerk connectie fout. Probeer opnieuw</string>
+  <string name="error_network_io">Er is een netwerkfout opgetreden. Probeer het nogmaals.</string>
+  <!-- Error Messages - Timeout -->
+  <string name="error_timeout_socket">Verzoek verlopen. Probeer opnieuw.</string>
+  <!-- Error Messages - SSL/Security -->
+  <string name="error_ssl_handshake">Veilige verbinding mislukt. Controleer de datum en tijd van uw apparaat.</string>
+  <string name="error_ssl_peer_unverified">Verificatie van servercertificaat is mislukt.</string>
+  <string name="error_ssl_protocol">Fout in het beveiligde verbindingsprotocol.</string>
+  <string name="error_ssl_general">Fout met beveiligde verbinding.</string>
+  <string name="error_certificate">Server certificaat fout.</string>
+  <!-- Error Messages - Authentication -->
+  <string name="error_auth_unauthorized">Authenticatie mislukt. Meld u opnieuw aan.</string>
+  <string name="error_auth_forbidden">Toegang geweigerd.</string>
+  <!-- Error Messages - Client -->
+  <string name="error_client_not_found">Gevraagde bron niet gevonden.</string>
+  <string name="error_client_protocol">Protocol error</string>
+  <string name="error_client_service_unknown">Service wordt niet ondersteund.</string>
+  <!-- Error Messages - Server -->
+  <string name="error_server_internal">Serverfout. Probeer het later opnieuw.</string>
+  <string name="error_server_bad_gateway">Dienst is tijdelijk niet beschikbaar. Probeer later opnieuw.</string>
+  <string name="error_server_unavailable">Dienst is tijdelijk niet beschikbaar. Probeer later opnieuw.</string>
+  <!-- Error Messages - Generic -->
+  <string name="error_unknown">Er is een onverwachte fout opgetreden. Probeer het opnieuw.</string>
+  <!-- Billing Error Messages -->
+  <string name="billing_unavailable_old_api">De Google Play Billing-versie van dit apparaat is te oud. Update Google Play Store of gebruik de webversie van Lumo.</string>
+  <string name="billing_unavailable_not_supported">In-app aankopen worden niet ondersteund op dit apparaat. Gebruik de webversie van Lumo voor abonnementen.</string>
+  <string name="billing_unavailable_generic">Facturering niet beschikbaar: Zorg ervoor dat de Google Play Store is geïnstalleerd, bijgewerkt en dat u bent ingelogd</string>
+  <string name="billing_service_not_connected">Factureringsservice niet verbonden. Probeer het alsjeblieft nog eens.</string>
+  <string name="billing_google_play_required">Google Play Store is vereist voor aankopen</string>
+  <string name="billing_cannot_access_google_play">Kan geen toegang krijgen tot Google Play Store</string>
+  <string name="billing_services_unavailable">Factureringsdiensten niet beschikbaar: %1$s</string>
+  <string name="billing_api_not_available">Google Play Billing API niet beschikbaar</string>
+  <string name="billing_initialization_failed">Initialisatie van facturering mislukt: %1$s</string>
+  <string name="billing_connection_failed">Verbinding maken met factureringsservice is mislukt: %1$s</string>
+  <string name="billing_application_context_unavailable">Applicatiecontext niet beschikbaar</string>
+  <!-- Subscription Plan Descriptions -->
+  <string name="subscription_monthly_description">Maandabonnement</string>
+  <string name="subscription_annual_description">Jaarabonnement (bespaar 20%)</string>
+  <!-- Subscription Error Messages -->
+  <string name="error_failed_to_load_subscriptions">Kon abonnementen niet laden: %1$s</string>
+  <string name="error_loading_subscriptions">Fout bij het ophalen van abonnementen: %1$s</string>
+  <string name="error_no_plans_with_pricing">Geen abonnementen met prijsinformatie beschikbaar</string>
+  <string name="error_problem_loading_subscriptions">Er is een probleem opgetreden bij het laden van abonnementen</string>
+  <string name="error_failed_to_load_plans">Kon abonnementen niet laden: %1$s</string>
+  <string name="error_loading_plans">Fout bij het ophalen van abonnementen: %1$s</string>
+  <string name="error_webview_not_available">WebView niet beschikbaar</string>
+  <string name="error_open_external_link">Kan externe link niet openen</string>
+  <string name="error_open_file_chooser">Kan bestandskiezer niet openen</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_title">Mis onze speciale aanbieding niet</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_subtitle">Ontgrendel vandaag nog alle premium functies van Lumo Plus voor minder.</string>
+  <!-- tag(q1campaign) -->
+  <string name="subscription_claim_spring_sale_deal">Claim de lente sale-deal</string>
+  <!-- tag(q1campaign) -->
+  <string name="limited_spring_sale_offer">Tijdelijke lente sale-aanbieding</string>
+</resources>

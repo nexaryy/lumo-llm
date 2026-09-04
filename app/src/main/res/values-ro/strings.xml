@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">Lumo</string>
+  <string name="back_to_lumo">Înapoi la Lumo</string>
+  <string name="loading">Lumo se încarcă</string>
+  <string name="error_generic">A apărut o eroare</string>
+  <string name="error_url">Eroare la determinarea adresei URL inițiale.</string>
+  <string name="unable_to_connect">Nu se poate conecta.</string>
+  <string name="please_check_your_internet_connection_and_try_again">Verificați conexiunea la internet și reîncercați.</string>
+  <string name="retry_button">Reîncercare</string>
+  <string name="retry_connection">Reîncercare conexiune</string>
+  <string name="settings">Setări</string>
+  <string name="cancel">Anulare</string>
+  <!-- Loading Messages -->
+  <string name="loading_message_1">Necesită atenție… și putere de procesare…</string>
+  <string name="loading_message_2">Mă lupt cu barele de încărcare…</string>
+  <string name="loading_message_3">Alung brokerii de date…</string>
+  <string name="loading_message_4">Urmăresc șoareci digitali…</string>
+  <string name="loading_message_5">Dărâm lucruri de pe rafturi invizibile…</string>
+  <string name="loading_message_6">Se descarcă… vă rugăm să așteptați…</string>
+  <string name="loading_message_7">Trag un pui de somn sub o rază de soare… aproape gata…</string>
+  <string name="loading_message_8">Complotez dominația mondială… și lansarea aplicației…</string>
+  <string name="loading_message_9">Pornesc motoarele la viață…</string>
+  <string name="loading_message_10">Îmi ascut ghearele pe tastatură…</string>
+  <string name="loading_message_11">Mă întind înainte de marele salt…</string>
+  <!-- MainActivity Status/Errors -->
+  <string name="speech_status_network">Recunoaștere procesată de Google</string>
+  <string name="speech_status_vosk" tools:ignore="MissingTranslation">Recunoaștere procesată de Vosk • Pe dispozitiv • Privată</string>
+  <string name="speech_status_google" tools:ignore="MissingTranslation">Recunoaștere procesată de Google</string>
+  <string name="speech_status_on_device">Pe dispozitiv • Privat</string>
+  <string name="permission_rationale_title">Lipsă permisiune</string>
+  <string name="permission_mic_rationale">Pentru folosirea vocii este necesară permisiunea microfonului</string>
+  <string name="speech_not_available">Recunoașterea vorbirii nu este disponibilă</string>
+  <string name="speech_error_format">Eroare vorbire: %1$s</string>
+  <!-- Placeholder for error message -->
+  <string name="submit_prompt_failed">Inserarea solicitării în vizualizarea web a eșuat.</string>
+  <string name="start_listener_error_format">Eroare pornire ascultare: %1$s</string>
+  <!-- Placeholder for exception message -->
+  <string name="fab_speak_prompt_desc">Prompt de vorbire</string>
+  <string name="speech_intent_prompt">Rostiți solicitarea</string>
+  <!-- Speech Input Sheet -->
+  <string name="speech_sheet_cancel_desc">Anulare folosire vorbire</string>
+  <string name="speech_sheet_submit_desc">Trimitere solicitare</string>
+  <string name="speech_sheet_listening">Se ascultă…</string>
+  <string name="speech_sheet_waiting">Atingeți pe trimitere sau vorbiți</string>
+  <!-- Speech Recognizer Errors -->
+  <string name="speech_error_audio">Eroare înregistrare audio.</string>
+  <string name="speech_error_client">Eroare în partea clientului.</string>
+  <string name="speech_error_insufficient_permissions">Permisiuni insuficiente.</string>
+  <string name="speech_error_network">Eroare de rețea</string>
+  <string name="speech_error_network_timeout">Rețea deconectată.</string>
+  <string name="speech_error_no_match">Nepotrivire verbală.</string>
+  <string name="speech_error_recognizer_busy">Recunoaștere ocupată.</string>
+  <string name="speech_error_server">Eroare server</string>
+  <string name="speech_error_speech_timeout">Nu există intrare audio.</string>
+  <string name="speech_error_unknown">Eroare necunoscută de recunoaștere vocală.</string>
+  <!-- SUbscription Strings -->
+  <string name="payment_title">Îmbunătățiți-vă experiența cu inteligența artificială</string>
+  <string name="payment_black_friday_title">Nu ratați oferta specială</string>
+  <string name="payment_subtitle">Beneficiați de tratament preferențial și funcții premium cu Lumo Plus.</string>
+  <string name="payment_black_friday_subtitle">Deblocați toate funcțiile premium din Lumo Plus cu cel mai bun preț.</string>
+  <string name="payment_checking">Se verifică starea abonamentului…</string>
+  <string name="payment_loading_plans">Se încarcă planurile de abonament…</string>
+  <string name="payment_no_plans_available">În prezent nu sunt disponibile planuri de abonament.</string>
+  <string name="subscription_renewal">Planul selectat se va reînnoi automat până la anulare.</string>
+  <string name="subscription_buy_lumo">Luați Lumo Plus</string>
+  <string name="subscription_use_lumo_free">Folosire Lumo Free</string>
+  <string name="subscription_claim_black_friday_deal">Revendicați oferta de Vinerea Neagră</string>
+  <string name="subscription_manage">Gestionare abonament</string>
+  <string name="subscription_manage_info">Acest abonament trebuie gestionat prin intermediul interfeței web.</string>
+  <string name="discount_template">Economisiți %s</string>
+  <string name="best_value">Cel mai avantajos</string>
+  <string name="limited_black_friday_offer">Ofertă limitată de Vinerea Neagră</string>
+  <string name="for_price">Pentru</string>
+  <string name="month">lună</string>
+  <string name="months">lună</string>
+  <string name="cancelled">Anulat</string>
+  <!-- Time Periods -->
+  <string name="period_day">zi</string>
+  <string name="period_week">săptămână</string>
+  <string name="period_month">lună</string>
+  <string name="period_quarter">trimestru</string>
+  <string name="period_6_months">6 luni</string>
+  <string name="period_year">an</string>
+  <!-- Plan Duration Text -->
+  <string name="plan_duration_1_month">O lună</string>
+  <string name="plan_duration_12_months">12 luni</string>
+  <string name="plan_duration_n_months">%1$d luni</string>
+  <!-- Subscription Status -->
+  <string name="subscription_renews">Abonamentul se reînnoiește automat la %1$s</string>
+  <string name="subscription_expires">Abonamentul expiră la %1$s</string>
+  <!-- Error Messages - Network -->
+  <string name="error_network_dns">Nu se poate conecta la server. Verificați conexiunea la internet.</string>
+  <string name="error_network_connection">Conexiune eșuată. Verificați conexiunea la internet.</string>
+  <string name="error_network_no_route">Nu se poate contacta serverul. Verificați conexiunea la internet.</string>
+  <string name="error_network_port_unreachable">Serviciu indisponibil temporar.</string>
+  <string name="error_network_socket">Eroare conexiune rețea. Reîncercați.</string>
+  <string name="error_network_io">A apărut o eroare de rețea. Reîncercați.</string>
+  <!-- Error Messages - Timeout -->
+  <string name="error_timeout_socket">Solicitare expirată. Reîncercați.</string>
+  <!-- Error Messages - SSL/Security -->
+  <string name="error_ssl_handshake">Eșuare conexiune securizată. Verificați data și ora dispozitivului.</string>
+  <string name="error_ssl_peer_unverified">Verificarea certificatului serverului a eșuat.</string>
+  <string name="error_ssl_protocol">Eroare protocol conexiune securizată.</string>
+  <string name="error_ssl_general">Eroare conexiune securizată.</string>
+  <string name="error_certificate">Eroare certificat server.</string>
+  <!-- Error Messages - Authentication -->
+  <string name="error_auth_unauthorized">Autentificare eșuată. Reautentificați-vă.</string>
+  <string name="error_auth_forbidden">Acces respins.</string>
+  <!-- Error Messages - Client -->
+  <string name="error_client_not_found">Resursa solicitată nu există.</string>
+  <string name="error_client_protocol">A apărut o eroare de protocol.</string>
+  <string name="error_client_service_unknown">Serviciul nu este acceptat.</string>
+  <!-- Error Messages - Server -->
+  <string name="error_server_internal">Eroare de server. Reîncercați.</string>
+  <string name="error_server_bad_gateway">Serviciul este temporar indisponibil. Reîncercați mai târziu.</string>
+  <string name="error_server_unavailable">Serviciul este temporar indisponibil. Reîncercați mai târziu.</string>
+  <!-- Error Messages - Generic -->
+  <string name="error_unknown">A apărut o eroare neașteptată. Reîncercați.</string>
+  <!-- Billing Error Messages -->
+  <string name="billing_unavailable_old_api">Versiunea de facturare Google Play pentru acest dispozitiv este prea veche. Actualizați Magazinul Google Play sau utilizați versiunea web a aplicației Lumo.</string>
+  <string name="billing_unavailable_not_supported">Achizițiile în aplicație nu sunt acceptate pe acest dispozitiv. Pentru abonamente utilizați versiunea web a Lumo.</string>
+  <string name="billing_unavailable_generic">Facturare indisponibilă: asigurați-vă că Magazinul Google Play este instalat, actualizat și că aveți conexiune la internet.</string>
+  <string name="billing_service_not_connected">Serviciul de facturare nu este conectat. Reîncercați.</string>
+  <string name="billing_google_play_required">Magazinul Google Play este necesar pentru achiziții</string>
+  <string name="billing_cannot_access_google_play">Nu se poate accesa Magazinul Google Play</string>
+  <string name="billing_services_unavailable">Servicii de facturare indisponibile: %1$s</string>
+  <string name="billing_api_not_available">API-ul de facturare Google Play nu este disponibil</string>
+  <string name="billing_initialization_failed">Inițializarea facturării a eșuat: %1$s</string>
+  <string name="billing_connection_failed">Conectarea la serviciul de facturare nu a reușit: %1$s</string>
+  <string name="billing_application_context_unavailable">Contextul aplicației nu este disponibil</string>
+  <!-- Subscription Plan Descriptions -->
+  <string name="subscription_monthly_description">Abonament lunar</string>
+  <string name="subscription_annual_description">Abonament anual (economisiți 20%)</string>
+  <!-- Subscription Error Messages -->
+  <string name="error_failed_to_load_subscriptions">Încărcarea abonamentelor a eșuat: %1$s</string>
+  <string name="error_loading_subscriptions">Eroare la încărcarea abonamentelor: %1$s</string>
+  <string name="error_no_plans_with_pricing">Nu există planuri cu informații de plată.</string>
+  <string name="error_problem_loading_subscriptions">A apărut o eroare la încărcarea abonamentelor.</string>
+  <string name="error_failed_to_load_plans">Eșuare la încărcarea planurilor: %1$s</string>
+  <string name="error_loading_plans">Eroare la încărcarea planurilor: %1$s</string>
+  <string name="error_webview_not_available">Webview nu este disponibil.</string>
+  <string name="error_open_external_link">Nu se poate deschide legătura web externă.</string>
+  <string name="error_open_file_chooser">Nu se poate deschide selectorul de fișiere.</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_title">Nu ratați oferta noastră specială</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_subtitle">Deblocați astăzi toate caracteristicile premium pe Lumo Plus la un preț mai mic.</string>
+  <!-- tag(q1campaign) -->
+  <string name="subscription_claim_spring_sale_deal">Revendică oferta primăverii</string>
+  <!-- tag(q1campaign) -->
+  <string name="limited_spring_sale_offer">Ofertă primăverii pe timp limitat</string>
+</resources>

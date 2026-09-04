@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">Lumo</string>
+  <string name="back_to_lumo">Lumo로 돌아가기</string>
+  <string name="loading">Lumo 로딩 중</string>
+  <string name="error_generic">오류 발생</string>
+  <string name="error_url">초기 URL을 결정하는 데 오류가 발생했습니다.</string>
+  <string name="unable_to_connect">연결할 수 없음</string>
+  <string name="please_check_your_internet_connection_and_try_again">인터넷 연결을 확인하고 다시 시도해 주세요</string>
+  <string name="retry_button">다시 시도</string>
+  <string name="retry_connection">연결 다시 시도</string>
+  <string name="settings">설정</string>
+  <string name="cancel">취소</string>
+  <!-- Loading Messages -->
+  <string name="loading_message_1">집중이 필요해… 야옹컴퓨터의 힘도…</string>
+  <string name="loading_message_2">로딩 막대 가지고 노는 중…</string>
+  <string name="loading_message_3">데이터 브로커 쫓아내는 중...</string>
+  <string name="loading_message_4">디지털 쥐와 숨바꼭질 중…</string>
+  <string name="loading_message_5">보이지 않는 선반 위 물건 톡톡 건드리는 중…</string>
+  <string name="loading_message_6">다운로드하는 중… 잠시 기다려주세요…</string>
+  <string name="loading_message_7">햇살 아래 낮잠 중... 거의 다 됐다옹…</string>
+  <string name="loading_message_8">온 세상 내꺼 만들 계획 중... 물론 당신의 앱까지도…</string>
+  <string name="loading_message_9">가르랑하며 시동거는 중…</string>
+  <string name="loading_message_10">키보드 위에서 발톱 가는 중…</string>
+  <string name="loading_message_11">뛰어오르기 전에 기지개 켜는 중…</string>
+  <!-- MainActivity Status/Errors -->
+  <string name="speech_status_network">Google로부터 음성 인식 진행됨</string>
+  <string name="speech_status_vosk" tools:ignore="MissingTranslation">비공개 온디바이스 기반 Vosk로 인식 처리됨</string>
+  <string name="speech_status_google" tools:ignore="MissingTranslation">Google에서 음성 인식을 처리함</string>
+  <string name="speech_status_on_device">온디바이스 • 비공개</string>
+  <string name="permission_rationale_title">권한 없음</string>
+  <string name="permission_mic_rationale">마이크 권한이 음성 인식에 필요합니다</string>
+  <string name="speech_not_available">음성 인식 사용 불가</string>
+  <string name="speech_error_format">음성 인식 오류. %1$s</string>
+  <!-- Placeholder for error message -->
+  <string name="submit_prompt_failed">프롬프트를 webview로 삽입하는데 오류 발생</string>
+  <string name="start_listener_error_format">음성 인식기 시작 실패: %1$s</string>
+  <!-- Placeholder for exception message -->
+  <string name="fab_speak_prompt_desc">말로 질문하기</string>
+  <string name="speech_intent_prompt">말로 질문하기</string>
+  <!-- Speech Input Sheet -->
+  <string name="speech_sheet_cancel_desc">음성 인식 취소</string>
+  <string name="speech_sheet_submit_desc">프롬프트 제출</string>
+  <string name="speech_sheet_listening">듣는 중...</string>
+  <string name="speech_sheet_waiting">제출하거나 말하기</string>
+  <!-- Speech Recognizer Errors -->
+  <string name="speech_error_audio">음성 녹음 오류</string>
+  <string name="speech_error_client">클라이언트 측 오류</string>
+  <string name="speech_error_insufficient_permissions">권한 부족</string>
+  <string name="speech_error_network">네트워크 오류</string>
+  <string name="speech_error_network_timeout">네트워크 시간 초과</string>
+  <string name="speech_error_no_match">일치하는 음성 인식 없음</string>
+  <string name="speech_error_recognizer_busy">음성 인식기 사용 중</string>
+  <string name="speech_error_server">서버 오류</string>
+  <string name="speech_error_speech_timeout">음성 인식 입력 없음</string>
+  <string name="speech_error_unknown">예기치 않은 음성 인식 오류</string>
+  <!-- SUbscription Strings -->
+  <string name="payment_title">AI 경험을 향상시키세요</string>
+  <string name="payment_black_friday_title">특별 할인을 놓치지 마세요</string>
+  <string name="payment_subtitle">Lumo Plus로 특별한 혜택과 프리미엄 기능을 누려보세요.</string>
+  <string name="payment_black_friday_subtitle">최고의 가격으로 Lumo Plus를 구매하여 모든 프리미엄 기능을 잠금 해제해 보세요.</string>
+  <string name="payment_checking">구독 상태를 확인하는 중...</string>
+  <string name="payment_loading_plans">구독 플랜을 불러오는 중...</string>
+  <string name="payment_no_plans_available">현재 사용 가능한 구독 플랜이 없습니다.</string>
+  <string name="subscription_renewal">선택된 플랜은 취소 전까지 자동 갱신됩니다.</string>
+  <string name="subscription_buy_lumo">Lumo Plus 구매</string>
+  <string name="subscription_use_lumo_free">Lumo Free로 대신 사용하기</string>
+  <string name="subscription_claim_black_friday_deal">블랙 프라이데이 할인 수락</string>
+  <string name="subscription_manage">구독 관리</string>
+  <string name="subscription_manage_info">이 구독은 웹 인터페이스를 통해 관리됩니다.</string>
+  <string name="discount_template">%s 절약</string>
+  <string name="best_value">최고의 가치</string>
+  <string name="limited_black_friday_offer">기간 한정 블랙 프라이데이 할인</string>
+  <string name="for_price">매</string>
+  <string name="month">월</string>
+  <string name="months">월</string>
+  <string name="cancelled">취소됨</string>
+  <!-- Time Periods -->
+  <string name="period_day">일</string>
+  <string name="period_week">주</string>
+  <string name="period_month">월</string>
+  <string name="period_quarter">분기</string>
+  <string name="period_6_months">6개월</string>
+  <string name="period_year">년</string>
+  <!-- Plan Duration Text -->
+  <string name="plan_duration_1_month">1개월</string>
+  <string name="plan_duration_12_months">12개월</string>
+  <string name="plan_duration_n_months">%1$d개월</string>
+  <!-- Subscription Status -->
+  <string name="subscription_renews">구독이 %1$s에 자동으로 갱신됩니다</string>
+  <string name="subscription_expires">구독이 %1$s에 만료됩니다</string>
+  <!-- Error Messages - Network -->
+  <string name="error_network_dns">서버에 연결할 수 없습니다. 인터넷 연결 여부를 확인하세요.</string>
+  <string name="error_network_connection">연결 실패. 인터넷 연결 여부를 확인하세요.</string>
+  <string name="error_network_no_route">서버에 연결할 수 없음. 인터넷 연결 여부를 확인하세요.</string>
+  <string name="error_network_port_unreachable">서버를 일시적으로 사용할 수 없습니다.</string>
+  <string name="error_network_socket">네트워크 연결 오류. 다시 시도해 주세요.</string>
+  <string name="error_network_io">네트워크 오류 발생. 다시 시도해 주세요.</string>
+  <!-- Error Messages - Timeout -->
+  <string name="error_timeout_socket">요청 시간이 초과되었습니다. 다시 시도해 주세요.</string>
+  <!-- Error Messages - SSL/Security -->
+  <string name="error_ssl_handshake">보안 연결 실패. 기기의 날짜 및 시간을 확인해 주세요.</string>
+  <string name="error_ssl_peer_unverified">서버 인증서 검증 실패.</string>
+  <string name="error_ssl_protocol">보안 연결 프로토콜 오류.</string>
+  <string name="error_ssl_general">보안 연결 오류.</string>
+  <string name="error_certificate">서버 인증 오류.</string>
+  <!-- Error Messages - Authentication -->
+  <string name="error_auth_unauthorized">인증 실패. 다시 로그인해 주세요.</string>
+  <string name="error_auth_forbidden">접근 거부됨.</string>
+  <!-- Error Messages - Client -->
+  <string name="error_client_not_found">요청된 자료를 찾을 수 없습니다.</string>
+  <string name="error_client_protocol">프로토콜 오류 발생.</string>
+  <string name="error_client_service_unknown">서비스가 지원되지 않습니다.</string>
+  <!-- Error Messages - Server -->
+  <string name="error_server_internal">서버 오류. 나중에 다시 시도해 주세요.</string>
+  <string name="error_server_bad_gateway">서비스를 일시적으로 사용할 수 없습니다. 다시 시도해 주세요.</string>
+  <string name="error_server_unavailable">서비스를 일시적으로 사용할 수 없습니다. 다시 시도해 주세요.</string>
+  <!-- Error Messages - Generic -->
+  <string name="error_unknown">예기치 않은 오류가 발생했습니다. 다시 시도해 주세요.</string>
+  <!-- Billing Error Messages -->
+  <string name="billing_unavailable_old_api">이 기기의 Google Play Billing 버전이 너무 낮습니다. Google Play Store를 업데이트하거나 Lumo의 웹 버전을 사용해 주세요.</string>
+  <string name="billing_unavailable_not_supported">인앱 결제는 현재 사용 중이신 기기에서 지원되지 않습니다. Lumo의 웹 버전으로 구독을 진행해 주세요.</string>
+  <string name="billing_unavailable_generic">결제 사용 불가: Google Play 설치, 업데이트 및 로그인 여부를 확인해 주세요.</string>
+  <string name="billing_service_not_connected">결제 서비스 연결 실패. 다시 시도해 주세요.</string>
+  <string name="billing_google_play_required">Google Play Store가 결제를 요청했습니다.</string>
+  <string name="billing_cannot_access_google_play">Google Play Store 접근 실패</string>
+  <string name="billing_services_unavailable">결제 서비스 사용 불가: %1$s</string>
+  <string name="billing_api_not_available">Google Pay 결제 API 사용 불가</string>
+  <string name="billing_initialization_failed">결제 구성 실패: %1$s</string>
+  <string name="billing_connection_failed">결제 서비스 연결 실패: %1$s</string>
+  <string name="billing_application_context_unavailable">어플리케이션 실행 환경 불러오기 실패</string>
+  <!-- Subscription Plan Descriptions -->
+  <string name="subscription_monthly_description">월간 구독</string>
+  <string name="subscription_annual_description">연간 구독 (20% 절약)</string>
+  <!-- Subscription Error Messages -->
+  <string name="error_failed_to_load_subscriptions">구독 정보 불러오기 실패: %1$s</string>
+  <string name="error_loading_subscriptions">구독 정보 불러오기 오류: %1$s</string>
+  <string name="error_no_plans_with_pricing">요금제 정보가 없습니다</string>
+  <string name="error_problem_loading_subscriptions">구독 정보를 불러오는 데 문제가 발생했습니다</string>
+  <string name="error_failed_to_load_plans">요금제 불러오기 실패: %1$s</string>
+  <string name="error_loading_plans">요금제 불러오기 오류: %1$s</string>
+  <string name="error_webview_not_available">웹뷰를 이용할 수 없습니다</string>
+  <string name="error_open_external_link">외부 링크를 열 수 없음</string>
+  <string name="error_open_file_chooser">파일 선택기를 열 수 없음</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_title">특별 할인을 놓치지 마세요</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_subtitle">오늘 Lumo Plus에서 모든 premium 기능을 더 저렴하게 잠금 해제하세요.</string>
+  <!-- tag(q1campaign) -->
+  <string name="subscription_claim_spring_sale_deal">봄 세일 혜택 받기</string>
+  <!-- tag(q1campaign) -->
+  <string name="limited_spring_sale_offer">기간 한정 봄 세일 혜택</string>
+</resources>

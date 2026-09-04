@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">Lumo</string>
+  <string name="back_to_lumo">Tilbage til Lumo</string>
+  <string name="loading">Indlæser Lumo</string>
+  <string name="error_generic">Der opstod en fejl</string>
+  <string name="error_url">Fejl ved bestemmelse af indledende URL.</string>
+  <string name="unable_to_connect">Kan ikke oprette forbindelse</string>
+  <string name="please_check_your_internet_connection_and_try_again">Tjek din internetforbindelse, og prøv igen</string>
+  <string name="retry_button">Forsøg igen</string>
+  <string name="retry_connection">Prøv at oprette forbindelse igen</string>
+  <string name="settings">Indstillinger</string>
+  <string name="cancel">Annuller</string>
+  <!-- Loading Messages -->
+  <string name="loading_message_1">Kræver opmærksomhed... og regnekraft...</string>
+  <string name="loading_message_2">Langer ud efter indlæsningsbjælker...</string>
+  <string name="loading_message_3">Jager datamæglere væk…</string>
+  <string name="loading_message_4">Jager digitale mus...</string>
+  <string name="loading_message_5">Vælter ting ned fra usynlige hylder...</string>
+  <string name="loading_message_6">Downloader... vent venligst...</string>
+  <string name="loading_message_7">Døser hen i en solstråle... næsten klar...</string>
+  <string name="loading_message_8">Planlægger verdensherredømme... og din app-opstart...</string>
+  <string name="loading_message_9">Spinder liv i motoren...</string>
+  <string name="loading_message_10">Sliber kløer på dit tastatur...</string>
+  <string name="loading_message_11">Strækker ud inden det store spring...</string>
+  <!-- MainActivity Status/Errors -->
+  <string name="speech_status_network">Genkendelse behandlet af Google</string>
+  <string name="speech_status_vosk" tools:ignore="MissingTranslation">Genkendelse behandlet af Vosk • På enheden • Privat</string>
+  <string name="speech_status_google" tools:ignore="MissingTranslation">Genkendelse behandlet af Google</string>
+  <string name="speech_status_on_device">På din enhed • Privat</string>
+  <string name="permission_rationale_title">Tilladelse mangler</string>
+  <string name="permission_mic_rationale">Mikrofontilladelse påkrævet til taleinput</string>
+  <string name="speech_not_available">Talegenkendelse ikke tilgængelig</string>
+  <string name="speech_error_format">Talefejl: %1$s</string>
+  <!-- Placeholder for error message -->
+  <string name="submit_prompt_failed">Kunne ikke indsætte prompt i webview</string>
+  <string name="start_listener_error_format">Fejl ved start af lytter: %1$s</string>
+  <!-- Placeholder for exception message -->
+  <string name="fab_speak_prompt_desc">Sig noget- prompt</string>
+  <string name="speech_intent_prompt">Sig din prompt</string>
+  <!-- Speech Input Sheet -->
+  <string name="speech_sheet_cancel_desc">Annuller taleinput</string>
+  <string name="speech_sheet_submit_desc">Send prompt</string>
+  <string name="speech_sheet_listening">Lytter...</string>
+  <string name="speech_sheet_waiting">Tryk send eller tal</string>
+  <!-- Speech Recognizer Errors -->
+  <string name="speech_error_audio">Lydoptagelsesfejl</string>
+  <string name="speech_error_client">Klientsidefejl</string>
+  <string name="speech_error_insufficient_permissions">Utilstrækkelige tilladelser</string>
+  <string name="speech_error_network">Netværksfejl</string>
+  <string name="speech_error_network_timeout">Netværkstimeout</string>
+  <string name="speech_error_no_match">Intet talematch</string>
+  <string name="speech_error_recognizer_busy">Genkender optaget</string>
+  <string name="speech_error_server">Serverfejl</string>
+  <string name="speech_error_speech_timeout">Ingen taleinput</string>
+  <string name="speech_error_unknown">Ukendt talegenkendelsesfejl</string>
+  <!-- SUbscription Strings -->
+  <string name="payment_title">Forbedr din AI-oplevelse</string>
+  <string name="payment_black_friday_title">Gå ikke glip af vores særlige tilbud</string>
+  <string name="payment_subtitle">Nyd prioriteret adgang og førsteklasses funktioner med Lumo Plus.</string>
+  <string name="payment_black_friday_subtitle">Lås op for alle premium-funktioner i Lumo Plus i dag, til vores hidtil bedste pris.</string>
+  <string name="payment_checking">Tjekker abonnementsstatus...</string>
+  <string name="payment_loading_plans">Indlæser abonnementsplaner...</string>
+  <string name="payment_no_plans_available">Ingen abonnementsplaner er i øjeblikket tilgængelige</string>
+  <string name="subscription_renewal">Den valgte plan vil blive fornyet automatisk indtil den annulleres.</string>
+  <string name="subscription_buy_lumo">Få Lumo Plus</string>
+  <string name="subscription_use_lumo_free">Brug Lumo Free i stedet</string>
+  <string name="subscription_claim_black_friday_deal">Indløs Black Friday-tilbud</string>
+  <string name="subscription_manage">Administrer abonnement</string>
+  <string name="subscription_manage_info">Dette abonnement skal administreres via webgrænsefladen.</string>
+  <string name="discount_template">Spar %s</string>
+  <string name="best_value">Bedste tilbud</string>
+  <string name="limited_black_friday_offer">Tidsbegrænset Black Friday-tilbud</string>
+  <string name="for_price">Til</string>
+  <string name="month">Måned</string>
+  <string name="months">Måned</string>
+  <string name="cancelled">Annulleret</string>
+  <!-- Time Periods -->
+  <string name="period_day">dag</string>
+  <string name="period_week">uge</string>
+  <string name="period_month">måned</string>
+  <string name="period_quarter">kvartal</string>
+  <string name="period_6_months">6 måneder</string>
+  <string name="period_year">år</string>
+  <!-- Plan Duration Text -->
+  <string name="plan_duration_1_month">1 måned</string>
+  <string name="plan_duration_12_months">12 måneder</string>
+  <string name="plan_duration_n_months">%1$d måneder</string>
+  <!-- Subscription Status -->
+  <string name="subscription_renews">Dit abonnement fornyes automatisk %1$s</string>
+  <string name="subscription_expires">Dit abonnement udløber %1$s</string>
+  <!-- Error Messages - Network -->
+  <string name="error_network_dns">Kan ikke oprette forbindelse til serveren. Tjek din internetforbindelse.</string>
+  <string name="error_network_connection">Forbindelse mislykkedes. Tjek din internetforbindelse.</string>
+  <string name="error_network_no_route">Kan ikke nå serveren. Tjek din internetforbindelse.</string>
+  <string name="error_network_port_unreachable">Tjeneste midlertidigt utilgængelig.</string>
+  <string name="error_network_socket">Netværksforbindelsesfejl. Prøv igen.</string>
+  <string name="error_network_io">Der opstod en netværksfejl. Prøv igen.</string>
+  <!-- Error Messages - Timeout -->
+  <string name="error_timeout_socket">Anmodning udløbet. Prøv igen.</string>
+  <!-- Error Messages - SSL/Security -->
+  <string name="error_ssl_handshake">Sikker forbindelse mislykkedes. Tjek din enheds dato og klokkeslæt.</string>
+  <string name="error_ssl_peer_unverified">Servercertificeret verifikation mislykkedes.</string>
+  <string name="error_ssl_protocol">Fejl i sikker forbindelsesprotokol.</string>
+  <string name="error_ssl_general">Fejl i sikker forbindelse</string>
+  <string name="error_certificate">Fejl i servercertifikat.</string>
+  <!-- Error Messages - Authentication -->
+  <string name="error_auth_unauthorized">Godkendelse mislykkedes. Log ind igen.</string>
+  <string name="error_auth_forbidden">Adgang nægtet.</string>
+  <!-- Error Messages - Client -->
+  <string name="error_client_not_found">Siden kunne ikke findes.</string>
+  <string name="error_client_protocol">Protokolfejl opstod.</string>
+  <string name="error_client_service_unknown">Tjeneste ikke understøttet.</string>
+  <!-- Error Messages - Server -->
+  <string name="error_server_internal">Serverfejl. Prøv igen senere.</string>
+  <string name="error_server_bad_gateway">Tjenesten er midlertidigt utilgængelig. Prøv igen.</string>
+  <string name="error_server_unavailable">Tjeneste er midlertidigt utilgængelig. Prøv igen senere.</string>
+  <!-- Error Messages - Generic -->
+  <string name="error_unknown">Der opstod en uventet fejl. Prøv igen.</string>
+  <!-- Billing Error Messages -->
+  <string name="billing_unavailable_old_api">Denne enheds Google Play Billing-version er for gammel. Opdater Google Play Butik eller brug webversionen af Lumo.</string>
+  <string name="billing_unavailable_not_supported">Køb i appen understøttes ikke på denne enhed. Brug webversionen af Lumo til abonnementer.</string>
+  <string name="billing_unavailable_generic">Fakturering utilgængelig: Sørg for, at Google Play Store er installeret, opdateret, og at du er logget ind</string>
+  <string name="billing_service_not_connected">Faktureringstjeneste ikke forbundet. Prøv igen.</string>
+  <string name="billing_google_play_required">Google Play Store er påkrævet ved køb</string>
+  <string name="billing_cannot_access_google_play">Kan ikke få adgang til Google Play Store</string>
+  <string name="billing_services_unavailable">Faktureringstjenester er ikke tilgængelige: %1$s</string>
+  <string name="billing_api_not_available">Google Play Billing-API ikke tilgængelig</string>
+  <string name="billing_initialization_failed">Faktureringsinitialisering mislykkedes: %1$s</string>
+  <string name="billing_connection_failed">Kunne ikke oprette forbindelse til faktureringstjeneste: %1$s</string>
+  <string name="billing_application_context_unavailable">Applikationskontekst utilgængelig</string>
+  <!-- Subscription Plan Descriptions -->
+  <string name="subscription_monthly_description">Månedligt abonnement</string>
+  <string name="subscription_annual_description">Årligt abonnement (spar 20%)</string>
+  <!-- Subscription Error Messages -->
+  <string name="error_failed_to_load_subscriptions">Indlæsning af abonnementer mislykkedes: %1$s</string>
+  <string name="error_loading_subscriptions">Fejl ved indlæsning af abonnementer: %1$s</string>
+  <string name="error_no_plans_with_pricing">Ingen planer med prisoplysninger tilgængelige</string>
+  <string name="error_problem_loading_subscriptions">Der opstod et problem med indlæsning af abonnementer</string>
+  <string name="error_failed_to_load_plans">Indlæsning af planer mislykkedes: %1$s</string>
+  <string name="error_loading_plans">Fejl ved indlæsning af planer: %1$s</string>
+  <string name="error_webview_not_available">WebView ikke tilgængelig</string>
+  <string name="error_open_external_link">Kan ikke åbne det eksterne link</string>
+  <string name="error_open_file_chooser">Kan ikke åbne filvælgeren</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_title">Gå ikke glip af vores særlige tilbud</string>
+  <!-- tag(q1campaign) -->
+  <string name="payment_spring_sale_subtitle">Lås op for alle premium-funktioner i dag på Lumo Plus til en lavere pris.</string>
+  <!-- tag(q1campaign) -->
+  <string name="subscription_claim_spring_sale_deal">Få forårssalg-tilbuddet</string>
+  <!-- tag(q1campaign) -->
+  <string name="limited_spring_sale_offer">Tidsbegrænset forårssalgstilbud</string>
+</resources>

@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/release/
+app/debug/
+app/production/
+vosk-model/build
+.kotlin/
+.idea/
+obsidian
+
+# Environment variables (contains sensitive data)
+.env
+
+# Sentry Config File
+sentry.properties
+ci/scripts/fdroid_release.sh
+
+# Build outputs / caches
+**/build/
+*.apk
+*.aab
+*.keystore
+*.jks

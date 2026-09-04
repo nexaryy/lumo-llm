@@ -1,0 +1,29 @@
+package me.proton.android.lumo.tracer
+
+interface LumoTracer {
+
+    fun startTransaction(name: String)
+
+    fun measureSpan(operation: Operation, description: String = "")
+
+    fun stopSpan(operation: Operation)
+
+    fun cancel()
+
+    fun finishTransaction()
+
+    sealed interface Operation {
+        val name: String
+
+        data object LoadUi : Operation {
+            override val name: String
+                get() = "ui.load"
+        }
+
+        data object MainReady : Operation {
+            override val name: String
+                get() = "main.ready"
+        }
+    }
+
+}
